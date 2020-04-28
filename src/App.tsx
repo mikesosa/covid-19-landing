@@ -20,8 +20,8 @@ const App: React.FC = () => {
     <Router>
       <NavBar />
       <Route exact path="/">
-        <Banner />
         <main className="nk-pages">
+          <Banner />
           <About />
           <Spread />
           <Symptoms />
